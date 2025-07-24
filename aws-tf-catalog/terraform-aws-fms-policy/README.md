@@ -21,7 +21,7 @@ $ terraform apply
 
 ```bash
 module "aws_fms_policy" {
-    source = "git::https://github.dxc.com/PT-CloudOps-Team/aws-tf-catalog/terraform-aws-fms-policy"
+    source = "git::https://github.kpmg.com/PT-CloudOps-Team/aws-tf-catalog/terraform-aws-fms-policy"
 
   aws_fms_policy_name                = ""
   exclude_resource_tags              = false

@@ -23,7 +23,7 @@ $ terraform apply
 ```bash
 
 module "sns_topic_subscription" {
-  source    = "https://github.dxc.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-sns-topic-subscription"
+  source    = "https://github.kpmg.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-sns-topic-subscription"
   topic_arn = "arn:aws:sns:us-west-2:432981146916:user-updates-topic" # ARN of the SNS topic to subscribe to.
   protocol  = "email"                                                 
   endpoint  = "example@hotmail.com"  #  Endpoint to send data to. The contents vary with the protocol. 

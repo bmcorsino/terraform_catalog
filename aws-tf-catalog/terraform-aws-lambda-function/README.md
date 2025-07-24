@@ -21,7 +21,7 @@ $ terraform apply
 
 ```bash
 module "aws_lambda_function" {
-    source = "git::https://github.dxc.com/PT-CloudOps-Team/aws-tf-catalog/terraform-aws-lambda-function"
+    source = "git::https://github.kpmg.com/PT-CloudOps-Team/aws-tf-catalog/terraform-aws-lambda-function"
 
   function_name 	= ""
   role 			= ""

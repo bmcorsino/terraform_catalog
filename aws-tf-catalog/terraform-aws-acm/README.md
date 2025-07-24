@@ -23,7 +23,7 @@ $ terraform apply
 ## ACM Certificate <a name="acm-certificate"></a>
 ```bash
 module "aws_acm_certificate" {
-    source            = "https://github.dxc.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-acm"
+    source            = "https://github.kpmg.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-acm"
     domain_name       = "example.com"
     validation_method = "DNS"
     hosted_zone_name  = "example" # Route53 hosted zone name

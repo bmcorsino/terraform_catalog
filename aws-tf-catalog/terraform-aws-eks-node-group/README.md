@@ -22,7 +22,7 @@ $ terraform apply
 ## EKS Node Group <a name="eks_node_group"></a>
 ```bash
 module "aws_eks_node_group" {
-  source          = "https://github.dxc.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-eks-node-group"
+  source          = "https://github.kpmg.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-eks-node-group"
   cluster_name    = "example-cluster-test"  # The name of the eks cluster to use the node group
   node_group_name = "example"
   node_role_arn   = ""

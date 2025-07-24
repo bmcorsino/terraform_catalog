@@ -23,7 +23,7 @@ $ terraform apply
 ## VPC<a name="vpc"></a>
 ```bash
 module "aws_lb" {
-    source            = "https://github.dxc.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-vpc"
+    source            = "https://github.kpmg.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-vpc"
     cidr_block_vpc    = "10.0.0.0/16"
     vpc_id            = ""
     cidr_block_subnet = "10.0.1.0/24"

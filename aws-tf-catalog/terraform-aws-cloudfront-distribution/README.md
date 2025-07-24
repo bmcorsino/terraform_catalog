@@ -22,7 +22,7 @@ $ terraform apply
 ```bash
 
 module "sqs_queue" {
-  source              = "https://github.dxc.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-cloudfront-distribution"
+  source              = "https://github.kpmg.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-cloudfront-distribution"
   domain_name         = ""             # DNS domain name of either the S3 bucket, or web site of your custom origin.
   origin_id           = "xxxx.xxxx.id" # Unique identifier for the origin.
   enabled             = ""             # true or false. Whether the distribution is enabled to accept end user requests for content

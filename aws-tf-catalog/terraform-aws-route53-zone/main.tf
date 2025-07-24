@@ -1,5 +1,5 @@
 /*************************************************************
-*             Author:   DXC IDD Portugal                     *
+*             Author:   kpmg  Portugal                     *
 *************************************************************/
 
 resource "aws_route53_zone" "HostedZone" {

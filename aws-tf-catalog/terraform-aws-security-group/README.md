@@ -23,7 +23,7 @@ $ terraform apply
 
 ```bash
 module "aws_sg" {
-    source            = "https://github.dxc.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-security-group"
+    source            = "https://github.kpmg.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-security-group"
     sg_name           = ""
     description       = ""
     vpc_id            = ""

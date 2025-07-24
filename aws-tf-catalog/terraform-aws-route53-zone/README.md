@@ -23,7 +23,7 @@ $ terraform apply
 
 ```bash
 module "aws_route53" {
-    	source            = "https://github.dxc.com/PT-CloudOps-Team/aws-tf-catalog/terraform-aws-route53-zone"
+    	source            = "https://github.kpmg.com/PT-CloudOps-Team/aws-tf-catalog/terraform-aws-route53-zone"
 	name 	= ""	   # domain name
 	private = false    # true or false
 }

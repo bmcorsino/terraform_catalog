@@ -1,4 +1,4 @@
-# DXC Cloudwatch Alarm
+# kpmg Cloudwatch Alarm
 
 Provides a CloudWatch Metric Alarm resource.
 
@@ -23,7 +23,7 @@ $ terraform apply
 ## Cloudwatch Alarm <a name="cloudwatch-alarm"></a>
 ```bash
 module "aws_cloudwatch_alarm" {
-  source                    = "https://github.dxc.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-cw"
+  source                    = "https://github.kpmg.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-cw"
   alarm_name                = "terraform-test-main5"
   comparison_operator       = "GreaterThanOrEqualToThreshold"    # Example: GreaterThanOrEqualToThreshold, GreaterThanThreshold, LessThanThreshold, LessThanOrEqualToThreshold...
   evaluation_periods        = "2"

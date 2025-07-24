@@ -22,7 +22,7 @@ $ terraform apply
 ```bash
 
 module "sns_topic" {
-  source                                  = "https://github.dxc.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-sns-topic"
+  source                                  = "https://github.kpmg.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-sns-topic"
   name                                    = "user-updates-topic"
 }
 

@@ -23,7 +23,7 @@ $ terraform apply
 ## RDS <a name="rds"></a>
 ```bash
 module "aws_rds_cluster"  {
-  source                  = "https://github.dxc.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-rds-cluster"
+  source                  = "https://github.kpmg.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-rds-cluster"
   cluster_identifier      = "aurora-cluster-demo"
   engine                  = "aurora-mysql"
   engine_version          = "5.7.mysql_aurora.2.03.2"

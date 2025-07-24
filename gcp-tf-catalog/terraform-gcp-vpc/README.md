@@ -23,7 +23,7 @@ $ terraform apply
 ## VPC <a name="vpc"></a>
 ```bash
 module "gcp_vpc" {
-    source            = "https://github.dxc.com/PT-CloudOps-Team/gcp-tf-catalog/tree/main/terraform-gcp-vpc"
+    source            = "https://github.kpmg.com/PT-CloudOps-Team/gcp-tf-catalog/tree/main/terraform-gcp-vpc"
 
     gcp_vpc_name            = "my-network"
     auto_create_subnetworks = false

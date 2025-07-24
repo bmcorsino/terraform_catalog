@@ -1,5 +1,5 @@
 /*************************************************************
-*             Author:   DXC IDD Portugal                     *
+*             Author:   kpmg  Portugal                     *
 *************************************************************/
 
 # EKS Node Group
@@ -20,5 +20,5 @@ resource "aws_eks_node_group" "main" {
     max_size     = try(var.eks_scaling_config.max_size, 3)
   }
 
-  tags = module.edp-aws-config.default_tags
+  tags = module.kpmg-aws-config.default_tags
 }

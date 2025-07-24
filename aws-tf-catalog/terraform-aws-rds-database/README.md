@@ -24,7 +24,7 @@ $ terraform apply
 ## RDS <a name="rds"></a>
 ```bash
 module "aws-db-instance" {
-source                       = "https://github.dxc.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-rds-database"
+source                       = "https://github.kpmg.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-rds-database"
   identifier                 = "rds-identifier"
   engine                     = "mysql"
   engine_version             = "5.7"

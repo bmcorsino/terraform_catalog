@@ -21,7 +21,7 @@ $ terraform apply
 ## EKS Cluster <a name="eks_cluster"></a>
 ```bash
 module "aws_eks_cluster" {
-  source                    = "https://github.dxc.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-eks-cluster"
+  source                    = "https://github.kpmg.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-eks-cluster"
   name                      = "example_name"
   role_arn                  = ""  # ARN for the role
   version                   = ""  

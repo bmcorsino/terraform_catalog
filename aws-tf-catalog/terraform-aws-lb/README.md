@@ -23,7 +23,7 @@ $ terraform apply
 ## Load Balancer<a name="lb"></a>
 ```bash
 module "aws_lb" {
-    source = "git::https://github.dxc.com/PT-CloudOps-Team/aws-tf-catalog"
+    source = "git::https://github.kpmg.com/PT-CloudOps-Team/aws-tf-catalog"
     name               = "test-lb-tf"
     internal           = false     # load balancer is internal or not internal
     load_balancer_type = "network" # network, application or gateway

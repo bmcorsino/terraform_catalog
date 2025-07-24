@@ -1,5 +1,5 @@
 /*************************************************************
-*             Author:   DXC IDD Portugal                     *
+*             Author:   kpmg  Portugal                     *
 *************************************************************/
 
 resource "google_compute_network" "vpc" {

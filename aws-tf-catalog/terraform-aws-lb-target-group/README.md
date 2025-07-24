@@ -24,7 +24,7 @@ $ terraform apply
 ## Target Group<a name="tg"></a>
 ```bash
 module "aws_lb" {
-    source      = "git::https://github.dxc.com/PT-CloudOps-Team/aws-tf-catalog/terraform-aws-lb-target-group"
+    source      = "git::https://github.kpmg.com/PT-CloudOps-Team/aws-tf-catalog/terraform-aws-lb-target-group"
     name        = "test-lb-tg"
     port        = 80  # Port on which targets receive traffic. Not always required see observations for more information           
     protocol    = "HTTP"  # Protocol to use for routing traffic to the targets. Not always required see observations for more information. Ex: HTTP, UDP, TCP

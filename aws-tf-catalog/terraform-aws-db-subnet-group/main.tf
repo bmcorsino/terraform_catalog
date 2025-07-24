@@ -1,5 +1,5 @@
 /*************************************************************
-*             Author:   DXC IDD Portugal                     *
+*             Author:   kpmg  Portugal                     *
 *************************************************************/
 
 // CREATE A SUBNET GROUP TO ATTACH TO RDS INSTANCE

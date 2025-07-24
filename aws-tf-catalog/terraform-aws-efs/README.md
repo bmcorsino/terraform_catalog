@@ -25,7 +25,7 @@ $ terraform apply
 
 ```bash
 module "aws_efs_file_system" {
-    source = "https://github.dxc.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-efs"
+    source = "https://github.kpmg.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-efs"
     availability_zone_name          = "eu-west-1a"
     encrypted                       = true
     performance_mode                = "generalPurpose"

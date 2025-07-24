@@ -23,7 +23,7 @@ $ terraform apply
 ## Subnet Group <a name="DB_Subnet_Group"></a>
 ```bash
 module "aws-db-subnet-group" {
- source      = "https://github.dxc.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-db-subnet-group"
+ source      = "https://github.kpmg.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-db-subnet-group"
  name       = "<<name>>"
  subnet_ids = "[subnet-xxxxxxxxx,subnet-yyyyyyyy,subnet-zzzzzzzzz]"
  tags       = "{key=value}"

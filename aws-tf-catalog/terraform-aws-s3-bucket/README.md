@@ -24,7 +24,7 @@ $ terraform apply
 ## S3 Bucket <a name="s3_bucket"></a>
 ```bash
 module "aws_s3_bucket" {
-  source                         = "git::https://github.dxc.com/PT-CloudOps-Team/aws-tf-catalog/terraform-aws-s3-bucket"
+  source                         = "git::https://github.kpmg.com/PT-CloudOps-Team/aws-tf-catalog/terraform-aws-s3-bucket"
   aws_s3_name                    = "appa-dev-s3-01"
   aws_s3_object_lock_enabled     = "false"
   aws_s3_versioning_status       = "Disabled"

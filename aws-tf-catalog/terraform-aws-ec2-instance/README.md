@@ -25,7 +25,7 @@ $ terraform apply
 ```bash
 
 module "ec2_instance" {
-  source                                  = "https://github.dxc.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-ec2-instance"
+  source                                  = "https://github.kpmg.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-ec2-instance"
   aws_ec2_ami                             = "ami-xxxxxxxxxxxxxxxxxx"
   aws_ec2_availability_zone               = "<<availability_zone>>"
   aws_ec2_subnet                          = "subnet-xxxxxxxxxxxxxxx"

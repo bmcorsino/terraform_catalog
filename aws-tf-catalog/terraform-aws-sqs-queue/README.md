@@ -23,7 +23,7 @@ $ terraform apply
 ```bash
 
 module "sqs_queue" {
-  source    = "https://github.dxc.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-sqs-queue"
+  source    = "https://github.kpmg.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-sqs-queue"
   name                      = ""   
   delay_seconds             = ""     # The time in seconds that the delivery of all messages in the queue will be delayed.
   max_message_size          = ""     # The limit of how many bytes a message can contain before Amazon SQS rejects it

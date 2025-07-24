@@ -23,7 +23,7 @@ $ terraform apply
 
 ```bash
 module "gcp_compute_instance" {
-    source            = "https://github.dxc.com/PT-CloudOps-Team/gcp-tf-catalog/tree/main/terraform-gcp-compute-instance"
+    source            = "https://github.kpmg.com/PT-CloudOps-Team/gcp-tf-catalog/tree/main/terraform-gcp-compute-instance"
 
     name         = "my-vm"
     machine_type = "n1-standard-1"

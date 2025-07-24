@@ -24,7 +24,7 @@ $ terraform apply
 ## EBS Volume For Linux<a name="ebs_volume_linux"></a>
 ```bash
 module "ebs_volume" {
-    source = "https://github.dxc.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-ebs-volume"
+    source = "https://github.kpmg.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-ebs-volume"
     aws_ebs_availability_zone   = "eu-west-1b"
     aws_ebs_volume_type         = "gp2"
     aws_ebs_volume_size         = 5
@@ -37,7 +37,7 @@ Device names on Linux instances - [Documentation](https://docs.aws.amazon.com/AW
 ## EBS Volume For Windows<a name="ebs_volume"></a>
 ```bash
 module "ebs_volume" {
-    source = "https://github.dxc.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-ebs-volume"
+    source = "https://github.kpmg.com/PT-CloudOps-Team/aws-tf-catalog/tree/main/terraform-aws-ebs-volume"
     aws_ebs_availability_zone   = "eu-west-1b"
     aws_ebs_volume_type         = "gp2"
     aws_ebs_volume_size         = 5

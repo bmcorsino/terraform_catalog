@@ -22,7 +22,7 @@ $ terraform apply
 ## SQL Database Instance <a name="sql"></a>
 ```bash
 module "gcp_sql_database" {
-    source            = "https://github.dxc.com/PT-CloudOps-Team/gcp-tf-catalog/tree/main/terraform-gcp-sql-database-instance"
+    source            = "https://github.kpmg.com/PT-CloudOps-Team/gcp-tf-catalog/tree/main/terraform-gcp-sql-database-instance"
 
     name                = ""
     database_version    = "POSTGRES_14"
