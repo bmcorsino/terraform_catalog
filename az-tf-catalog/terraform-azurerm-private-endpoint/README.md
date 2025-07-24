@@ -9,7 +9,7 @@ This Terraform module deploys a private endpoint in Azure
 
 ```hcl
 module "azurerm-private-endpoint" {
-  source                                        = "git::ssh://git@bitbucket.agile.corp.dxc.pt:7999/ica/terraform-azurerm-private-endpoint.git"
+  source                                        = "git::ssh://git@bitbucket.agile.corp.kpmg.pt:7999/ica/terraform-azurerm-private-endpoint.git"
 
   azurerm_resource_group_name                   = var.azurerm_resource_group_name
   azurerm_resource_location                     = var.azure_region

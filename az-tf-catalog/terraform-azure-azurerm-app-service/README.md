@@ -1,12 +1,12 @@
-# kpmg Windows WebApp
+# kpmg WebApp
 
-WebApp delivery according to model and value combinations, below are the tested and validated examples.
+WebApp delivery according to model and value combinations, below are the tested and validated examples
 
   - Terraform 12, 13 and 14
 
 ## Any questions or suggestion?
 
-Raise issues for asking help
+Raise issues for asking help.
 
 ## Run terraform
 
@@ -16,27 +16,18 @@ $ terraform plan
 $ terraform apply
 ```
 
-## Windows WebApp<a name="Windows-WebApp"></a>
+## WebApp<a name="WebApp"></a>
 ```bash
-module "windows_web_app" {
-    source = "git::ssh://git@bitbucket.agile.corp.kpmg.pt:7999/ica/terraform-azure-azurerm-windows-web-app"
+module "app-service" {
+    source = "git::ssh://git@bitbucket.agile.corp.kpmg.pt:7999/ica/terraform-azure-azurerm-app-service.git?ref=v.2.0.0"
 
     azurerm_app_service_resource_group_name                             = "appname-dev-rg-01"
     azurerm_service_plan_id                                             = "/path-service-plan-id/appname-dev-plan-01"
     azurerm_app_service_location                                        = "westeurope"
+    app_linux_count                                                     = 0
     app_windows_count                                                   = 1
     azurerm_app_service_name                                            = "appname-dev-app-01"
-    current_stack                                                       = ""  
-    dotnet_version                                                      = ""
-    node_version                                                        = ""   
-    python_version                                                      = ""
-    php_version                                                         = ""  
-    java_version                                                        = ""   
-    java_container                                                      = ""
-    java_container_version                                              = ""
-    docker_container_name                                               = ""
-    docker_container_registry                                           = ""
-    docker_container_tag                                                = ""
+    app_runtime                                                         = "PHP|7.3"
     auth_settings_active_directory_issuer_tenant_id                     = ""
     auth_settings_active_directory_client_id                            = ""
     auth_settings_active_directory_client_secret                        = ""
@@ -59,6 +50,6 @@ module "windows_web_app" {
 ## Output<a name="WebApp-output"></a>
 ```bash
 output "main" {
-    value = module.windows_web_app.main_windows
+    value = module.app-service.main
 }
 ```

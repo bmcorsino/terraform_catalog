@@ -1,4 +1,4 @@
-# DXC Virtual Machine
+# kpmg Virtual Machine
 
 Virtual Machine delivery according to model and value combinations, below are the tested and validated examples
 
@@ -25,7 +25,7 @@ $ terraform apply
 ## Virtual Machine - Linux<a name="vm_linux"></a>
 ```bash
 module "virtual-machine" {
-    source = "git::ssh://git@bitbucket.agile.corp.dxc.pt:7999/ica/terraform-azure-azurerm-virtual-machine.git"
+    source = "git::ssh://git@bitbucket.agile.corp.kpmg.pt:7999/ica/terraform-azure-azurerm-virtual-machine.git"
 
     azurerm_virtual_machine_count                               = 1
     azurerm_virtual_machine_start_suffix                        = 1
@@ -50,7 +50,7 @@ module "virtual-machine" {
 ## Virtual Machine - Windows<a name="vm_windows"></a>
 ```bash
 module "virtual-machine" {
-    source = "git::ssh://git@bitbucket.agile.corp.dxc.pt:7999/ica/terraform-azure-azurerm-virtual-machine.git"
+    source = "git::ssh://git@bitbucket.agile.corp.kpmg.pt:7999/ica/terraform-azure-azurerm-virtual-machine.git"
 
     azurerm_virtual_machine_count                               = 1
     azurerm_virtual_machine_start_suffix                        = 1

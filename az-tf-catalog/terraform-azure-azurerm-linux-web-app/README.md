@@ -1,4 +1,4 @@
-# kpmg Windows WebApp
+# kpmg Linux WebApp
 
 WebApp delivery according to model and value combinations, below are the tested and validated examples.
 
@@ -6,7 +6,7 @@ WebApp delivery according to model and value combinations, below are the tested 
 
 ## Any questions or suggestion?
 
-Raise issues for asking help
+Raise issues for asking help.
 
 ## Run terraform
 
@@ -16,17 +16,16 @@ $ terraform plan
 $ terraform apply
 ```
 
-## Windows WebApp<a name="Windows-WebApp"></a>
+## Linux WebApp<a name="Linux-WebApp"></a>
 ```bash
-module "windows_web_app" {
-    source = "git::ssh://git@bitbucket.agile.corp.kpmg.pt:7999/ica/terraform-azure-azurerm-windows-web-app"
+module "linux_web_app" {
+    source = "git::ssh://git@bitbucket.agile.corp.kpmg.pt:7999/ica/terraform-azure-azurerm-linux-web-app"
 
     azurerm_app_service_resource_group_name                             = "appname-dev-rg-01"
     azurerm_service_plan_id                                             = "/path-service-plan-id/appname-dev-plan-01"
     azurerm_app_service_location                                        = "westeurope"
-    app_windows_count                                                   = 1
+    app_linux_count                                                     = 0
     azurerm_app_service_name                                            = "appname-dev-app-01"
-    current_stack                                                       = ""  
     dotnet_version                                                      = ""
     node_version                                                        = ""   
     python_version                                                      = ""
@@ -59,6 +58,6 @@ module "windows_web_app" {
 ## Output<a name="WebApp-output"></a>
 ```bash
 output "main" {
-    value = module.windows_web_app.main_windows
+    value = module.linux_web_app.main
 }
 ```
